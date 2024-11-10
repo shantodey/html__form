@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Faculty+Glyphic&family=Hind+Siliguri:wght@300;400;500;600;700&family=M+PLUS+Rounded+1c&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+	scroll-behavior: smooth;
+    overflow-x: hidden ;
+    background-image: url(/img/under\ construction.jpg) ; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(15px); 
+   
+}
+
+a{
+    list-style: none;
+    text-decoration: none !important;
+    
+}
+ul{
+    list-style: none !important;
+
+}
+img{
+    vertical-align: middlesS;
+    max-width: 100%;
+    background-size: cover;
+}
+.vh-90{
+    height: 90.5dvh !important;
+}
+#herp h1{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+    font-size: 120pt;
+}
+#herp p{
+    text-transform: capitalize;
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+
+
+
+#fotter{
+    backdrop-filter: blur(15px); 
+    margin-bottom: 0px;
+}
+.fotter__icon a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    border: 1px solid #999;
+    transition: background-color 0.2s ease-out 100ms
+}
+.fotter__icon i{
+    color: #999;
+}
+.fotter__icon a:hover {
+    background-color: #fff;
+    color: black;
+}
+.form-control {
+    background-color: transparent;
+}
+.form-control::placeholder {
+    color: white !important;
+    border-color: transparent !important;
+}
+.form-control:focus {
+    color: white;
+    background-color: transparent;
+}

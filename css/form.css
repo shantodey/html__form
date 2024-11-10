@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none !important;
+
+}
+body, html {
+    height: 100%;
+    overflow: hidden;
+    background-image: url(/img/login-bg.png); 
+}
+
+#page {
+    min-height: 100vh;
+}
+
+.blur{
+    backdrop-filter: blur(10px); 
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.forn{
+    border-bottom: 1px solid white;
+}
+::placeholder {
+    font-family: "M PLUS Rounded 1c", sans-serif !important;
+    font-size: 14px;
+    color:  whitesmoke  !important;
+   
+    
+}
+.form-control {
+    padding-left: 30px !important;
+    background: transparent !important;
+    color: rgba(255, 255, 255, 0.815) !important;
+    border: none !important ; 
+    border-bottom: 1px solid white !important;
+    border-radius: 0px !important;
+}
+.form-control:focus{
+    box-shadow: none !important;
+}
+.form__text{
+    position: relative ;
+}
+.form__icon{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 15%; 
+    left: 3%; 
+    color: white; 
+    opacity: 70%;
+}
+.account__text{
+    display: flex;
+    justify-content: space-evenly;
+}
+.account__text p{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    color: white; 
+    opacity: 70%;
+}
+.account__text a{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    color: white; 
+   ;
+}
